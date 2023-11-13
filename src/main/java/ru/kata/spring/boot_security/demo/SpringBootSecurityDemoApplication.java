@@ -63,7 +63,7 @@ public class SpringBootSecurityDemoApplication {
             userUser.setLastName("swqd");
 
 
-            userUser.addRoleUser(roleRepositories.findById(1).orElse(null));
+            userUser.addRoleUser(roleRepositories.findById(2).orElse(null));
             userServices.saveUser(userUser);
         } catch (Exception e) {
             e.printStackTrace();
